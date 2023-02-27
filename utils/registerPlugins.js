@@ -35,9 +35,9 @@ const allPlugins = async (fastify) =>{
         routePrefix:'/api-docs',
         swagger:{
             info:{
-                title:'Lifesten-services',
-                description: 'Lifesten Backend services [Construction Underway]',
-                version: '1.0.0'
+                title:'USSD Callback API Documentation',
+                description: 'USSD Callback api Documentation.',
+                version: version
             }
         },
         host: `localhost:${process.env.PORT}`,
